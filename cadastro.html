@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Naiale Cadastro</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h2>Naiale</h2>
+        <nav class="cabecalho-menu">
+                <a class="menu-item" href="index.html">Home</a>
+                <a class="menu-item" href="login.html">Login</a>
+                <a class="menu-item" href="cadastro.html">Cadastro</a>  
+        </nav>
+    </header>
+    <div>
+        <form id="formulario" method="post" action="https://652d8d5cf9afa8ef4b279bbb.mockapi.io/portifolio/cadastro">
+    
+            <label for="nome">Nome </label>
+            <input type="text" id="nome" name="name" autocomplete="off" ><br>
+    
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required ><br>
+    
+            <label for="tel">Telefone</label>
+            <input id="tel"  type="tel"><br>
+    
+            <label for="endereco">Endereço</label>
+            <input type="text" name="linkedin" id="endereco"><br>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha"><br><br>
+    
+            <textarea name="texto" for="texto" id="texto" cols="30" rows="10"> Encomendar peça   
+            </textarea><br>
+    
+            <button class="botao" type="submit">enviar</button>
+            <input class="botao" type="reset" value="limpar">
+        </form>
+        </div>
+</body>
+</html>
